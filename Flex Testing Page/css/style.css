@@ -12,6 +12,7 @@ body{
 .contenedor{
     width: 90%;
     margin: auto;
+    max-height: 3000px;
 
     display: flex;
     flex-flow: column wrap;
@@ -64,6 +65,7 @@ header nav a:hover{
 .main{
     
     display: flex;
+    flex-flow: row wrap;
 
 }
 
@@ -84,11 +86,30 @@ header nav a:hover{
     padding: 10px;
     margin: 10px;
     border-radius: 3px;
-    width: 30%;
+    
     
 }
+
+.aside article{
+    background: #f8f1f1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    
+    
+}
+
 
 .main .aside{
     background: #0d6b66;
     flex: 1 1 30%
+}
+
+.footer{
+    padding: 20px;
+    background-color: #16c79a;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
