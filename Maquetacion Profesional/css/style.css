@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+}
+
+header nav .centrado{
+
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+header nav{
+    background: linear-gradient(0deg, rgba(66,66,136,1) 52%, rgba(94,106,185,1) 100%);
+
+    
+}
+
+header nav .centrado button{
+    background: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: rgb(139, 138, 138);
+    box-shadow: 2px 2px black;
+    border: none;
+    margin-right: 5px;
+}
+
+header nav .centrado button:nth-last-child(1){
+    
+    margin-right: 0px;
+}
+
+header nav .centrado #text{
+    background: rgb(44, 44, 90) ;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    
+}
+
+header nav .centrado button:hover{
+   color: rgb(0, 0, 0);
+}
+
